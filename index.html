@@ -1,91 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joe Barranquilla - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jose Bedoya</title>
+  <meta name="description" content="Personal site of Jose Bedoya.">
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #0055aa;
+      --bg: #fafaf7;
+    }
+ 
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #e8e8e8;
+        --muted: #999;
+        --accent: #7aaaff;
+        --bg: #1a1a1a;
+      }
+    }
+ 
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 6rem;
+    }
+ 
+    header { margin-bottom: 3rem; }
+ 
+    h1 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      margin: 0 0 0.25rem;
+    }
+ 
+    header p {
+      color: var(--muted);
+      margin: 0;
+      font-style: italic;
+    }
+ 
+    section { margin-bottom: 2.5rem; }
+ 
+    h2 {
+      font-size: 1rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 0 0 1rem;
+    }
+ 
+    p { margin: 0 0 1rem; }
+ 
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+ 
+    a:hover { border-bottom-color: var(--accent); }
+ 
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+ 
+    li { margin-bottom: 0.5rem; }
+  </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <h1 class="logo">Joe Barranquilla</h1>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <header id="home" class="hero">
-        <div class="container">
-            <h1>Welcome to My Website</h1>
-            <p>Full Stack Developer | Problem Solver | Tech Enthusiast</p>
-            <a href="#about" class="cta-button">Learn More</a>
-        </div>
-    </header>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                Hi! I'm Joe, a passionate developer interested in building innovative solutions.
-                I enjoy working with modern technologies and love collaborating with others to create impactful projects.
-            </p>
-            <div class="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>Web Development</li>
-                    <li>Full Stack Development</li>
-                    <li>Problem Solving</li>
-                    <li>Team Collaboration</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Project One</h3>
-                    <p>Description of your first project and what you learned from it.</p>
-                    <a href="#" class="project-link">View More →</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project Two</h3>
-                    <p>Description of your second project and its impact.</p>
-                    <a href="#" class="project-link">View More →</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project Three</h3>
-                    <p>Description of your third project and key technologies used.</p>
-                    <a href="#" class="project-link">View More →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <p>Feel free to reach out if you'd like to collaborate or just say hello!</p>
-            <div class="contact-links">
-                <a href="mailto:jose.bedoya@tum.de" class="contact-link">Email</a>
-                <a href="https://github.com/joebarranquilla" class="contact-link">GitHub</a>
-                <a href="https://linkedin.com" class="contact-link">LinkedIn</a>
-                <a href="https://twitter.com" class="contact-link">Twitter</a>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Joe Barranquilla. All rights reserved.</p>
-        </div>
-    </footer>
+ 
+  <header>
+    <h1>Jose Bedoya</h1>
+    <p>Munich — autonomous driving, math, engineering.</p>
+  </header>
+ 
+  <section>
+    <p>
+      I'm a Master's student in Mathematics in Science and Engineering at TU Munich,
+      focused on perception and planning for autonomous driving. Currently a working
+      student at BMW and research intern at the TUM Data Innovation Lab with TRATON.
+    </p>
+    <p>
+      Reach me at <a href="mailto:josebedoya771@gmail.com">josebedoya771@gmail.com</a>.
+    </p>
+  </section>
+ 
+  <section>
+    <h2>Work</h2>
+    <ul>
+      <li>Working Student, ADAS Validation — BMW Group</li>
+      <li>Research Intern — TUM Data Innovation Lab × TRATON</li>
+    </ul>
+  </section>
+ 
+  <section>
+    <h2>Selected Projects</h2>
+    <ul>
+      <li>Domain adaptation for autonomous trucks (TRATON)</li>
+      <li>Trajectory optimization in learned environments (Siemens)</li>
+      <li>Agentic research pipeline for digital health (RoX Health)</li>
+    </ul>
+  </section>
+ 
+  <section>
+    <h2>Writing</h2>
+    <ul>
+      <li>
+        <a href="https://doi.org/10.1115/1.4063679">
+          Enhancing gas turbine performance in tropical climates
+        </a> — ASME, 2023
+      </li>
+    </ul>
+  </section>
+ 
+  <section>
+    <h2>Elsewhere</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/jose-bedoya-916b631a0">LinkedIn</a></li>
+    </ul>
+  </section>
+ 
 </body>
 </html>
