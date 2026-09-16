@@ -1,171 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jose Bedoya</title>
-  <meta name="description" content="Personal site of Jose Bedoya.">
-  <style>
-    :root {
-      --text: #0f172a;
-      --muted: #64748b;
-      --accent: #0369a1;
-      --accent-light: #e0f2fe;
-      --border: #e2e8f0;
-      --bg: #f8fafc;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jose Bedoya</title>
+<meta name="description" content="Personal site of Jose Bedoya.">
+<style>
+:root {
+--text: #0f172a;
+--muted: #64748b;
+--accent: #0369a1;
+--accent-light: #e0f2fe;
+--border: #e2e8f0;
+--bg: #f8fafc;
     }
 
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --text: #f1f5f9;
-        --muted: #cbd5e1;
-        --accent: #38bdf8;
-        --accent-light: #082f49;
-        --border: #334155;
-        --bg: #0f172a;
+@media (prefers-color-scheme: dark) {
+:root {
+--text: #f1f5f9;
+--muted: #cbd5e1;
+--accent: #38bdf8;
+--accent-light: #082f49;
+--border: #334155;
+--bg: #0f172a;
       }
     }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
     }
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-      line-height: 1.7;
-      color: var(--text);
-      background: var(--bg);
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 3rem 1.5rem 4rem;
+body {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+line-height: 1.7;
+color: var(--text);
+background: var(--bg);
+max-width: 720px;
+margin: 0 auto;
+padding: 3rem 1.5rem 4rem;
     }
 
-    header {
-      margin-bottom: 2.5rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--border);
+header {
+margin-bottom: 2.5rem;
+padding-bottom: 2rem;
+border-bottom: 1px solid var(--border);
     }
 
-    h1 {
-      font-size: 1.75rem;
-      font-weight: 700;
-      margin: 0 0 0.5rem;
-      letter-spacing: -0.5px;
+h1 {
+font-size: 1.75rem;
+font-weight: 700;
+margin: 0 0 0.5rem;
+letter-spacing: -0.5px;
     }
 
-    header p {
-      color: var(--muted);
-      margin: 0;
-      font-size: 0.95rem;
+header p {
+color: var(--muted);
+margin: 0;
+font-size: 0.95rem;
     }
 
-    section {
-      margin-bottom: 2.25rem;
+section {
+margin-bottom: 2.25rem;
     }
 
-    h2 {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--accent);
-      margin: 0 0 0.75rem;
+h2 {
+font-size: 0.85rem;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: var(--accent);
+margin: 0 0 0.75rem;
     }
 
-    p {
-      margin: 0 0 0.75rem;
-      color: var(--text);
+p {
+margin: 0 0 0.75rem;
+color: var(--text);
     }
 
-    p:last-child { margin-bottom: 0; }
+p:last-child { margin-bottom: 0; }
 
-    a {
-      color: var(--accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent);
-      transition: all 0.2s ease;
+a {
+color: var(--accent);
+text-decoration: none;
+border-bottom: 1px solid var(--accent);
+transition: all 0.2s ease;
     }
 
-    a:hover {
-      background: var(--accent-light);
-      border-bottom-color: var(--accent);
-      padding: 0 2px;
+a:hover {
+background: var(--accent-light);
+border-bottom-color: var(--accent);
+padding: 0 2px;
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
     }
 
-    li {
-      margin-bottom: 0.5rem;
-      color: var(--text);
-      padding-left: 0;
+li {
+margin-bottom: 0.5rem;
+color: var(--text);
+padding-left: 0;
     }
 
-    li::before {
-      content: "→";
-      color: var(--accent);
-      margin-right: 0.5rem;
-      font-weight: 600;
+li::before {
+content: "→";
+color: var(--accent);
+margin-right: 0.5rem;
+font-weight: 600;
     }
-  </style>
+
+.role-date {
+color: var(--muted);
+font-size: 0.9rem;
+    }
+</style>
 </head>
 <body>
- 
-  <header>
-    <h1>Jose Bedoya</h1>
-    <p>Munich — autonomous driving, math, engineering.</p>
-  </header>
- 
-  <section>
-    <p>
+<header>
+<h1>Jose Bedoya</h1>
+<p>Munich — autonomous systems, computer vision, applied math.</p>
+</header>
+<section>
+<p>
       I'm a Master's student in Mathematics in Science and Engineering at TU Munich,
-      focused on perception and planning for autonomous driving. Currently a working
-      student at BMW and research intern at the TUM Data Innovation Lab with TRATON.
-    </p>
-    <p>
+      focused on computer vision and autonomous systems. Currently a working student
+      in Computer Vision at Fraunhofer IKS, and previously worked on ADAS validation
+      at BMW and domain adaptation for autonomous trucks with TRATON R&D.
+</p>
+<p>
       Reach me at <a href="mailto:josebedoya771@gmail.com">josebedoya771@gmail.com</a>.
-    </p>
-  </section>
- 
-  <section>
-    <h2>Work</h2>
-    <ul>
-      <li>Working Student, ADAS Validation — BMW Group</li>
-      <li>Research Intern — TUM Data Innovation Lab × TRATON</li>
-    </ul>
-  </section>
- 
-  <section>
-    <h2>Selected Projects</h2>
-    <ul>
-      <li>Domain adaptation for autonomous trucks (TRATON)</li>
-      <li>Trajectory optimization in learned environments (Siemens)</li>
-      <li>Agentic research pipeline for digital health (RoX Health)</li>
-    </ul>
-  </section>
- 
-  <section>
-    <h2>Writing</h2>
-    <ul>
-      <li>
-        <a href="https://doi.org/10.1115/1.4063679">
+</p>
+</section>
+<section>
+<h2>Work</h2>
+<ul>
+<li>Working Student, Computer Vision — Fraunhofer IKS <span class="role-date">(since 2026)</span></li>
+<li>Research Intern — TUM Data Innovation Lab × TRATON R&D <span class="role-date">(2025–2026)</span></li>
+<li>Working Student, ADAS Validation — BMW Group <span class="role-date">(2024–2026)</span></li>
+<li>Intern, Body Safety Validation — BMW Group <span class="role-date">(2024)</span></li>
+</ul>
+</section>
+<section>
+<h2>Selected Projects</h2>
+<ul>
+<li>Dependable person detection for industrial sensing (Fraunhofer IKS)</li>
+<li>Domain adaptation for autonomous trucks (TRATON)</li>
+<li>Trajectory optimization and collision avoidance in learned environments (Siemens)</li>
+<li>Driving scenario reconstruction with foundation models (TUM Computer Vision Group)</li>
+<li>Monocular depth to multi-view reconstruction (TUM Computer Vision Group)</li>
+<li>Agentic research pipeline for digital health (RoX Health)</li>
+</ul>
+</section>
+<section>
+<h2>Writing</h2>
+<ul>
+<li>
+<a href="https://doi.org/10.1115/1.4063679">
           Enhancing gas turbine performance in tropical climates
-        </a> — ASME, 2023
-      </li>
-    </ul>
-  </section>
- 
-  <section>
-    <h2>Elsewhere</h2>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/jose-bedoya-916b631a0">LinkedIn</a></li>
-    </ul>
-  </section>
- 
+</a> — ASME, 2023
+</li>
+</ul>
+</section>
+<section>
+<h2>Elsewhere</h2>
+<ul>
+<li><a href="https://www.linkedin.com/in/jose-bedoya-916b631a0">LinkedIn</a></li>
+</ul>
+</section>
 </body>
 </html>
