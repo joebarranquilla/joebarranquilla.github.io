@@ -1,175 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jose Bedoya</title>
-<meta name="description" content="Personal site of Jose Bedoya.">
-<style>
-:root {
---text: #0f172a;
---muted: #64748b;
---accent: #0369a1;
---accent-light: #e0f2fe;
---border: #e2e8f0;
---bg: #f8fafc;
-    }
-
-@media (prefers-color-scheme: dark) {
-:root {
---text: #f1f5f9;
---muted: #cbd5e1;
---accent: #38bdf8;
---accent-light: #082f49;
---border: #334155;
---bg: #0f172a;
-      }
-    }
-
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-    }
-
-body {
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-line-height: 1.7;
-color: var(--text);
-background: var(--bg);
-max-width: 720px;
-margin: 0 auto;
-padding: 3rem 1.5rem 4rem;
-    }
-
-header {
-margin-bottom: 2.5rem;
-padding-bottom: 2rem;
-border-bottom: 1px solid var(--border);
-    }
-
-h1 {
-font-size: 1.75rem;
-font-weight: 700;
-margin: 0 0 0.5rem;
-letter-spacing: -0.5px;
-    }
-
-header p {
-color: var(--muted);
-margin: 0;
-font-size: 0.95rem;
-    }
-
-section {
-margin-bottom: 2.25rem;
-    }
-
-h2 {
-font-size: 0.85rem;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 0.1em;
-color: var(--accent);
-margin: 0 0 0.75rem;
-    }
-
-p {
-margin: 0 0 0.75rem;
-color: var(--text);
-    }
-
-p:last-child { margin-bottom: 0; }
-
-a {
-color: var(--accent);
-text-decoration: none;
-border-bottom: 1px solid var(--accent);
-transition: all 0.2s ease;
-    }
-
-a:hover {
-background: var(--accent-light);
-border-bottom-color: var(--accent);
-padding: 0 2px;
-    }
-
-ul {
-list-style: none;
-padding: 0;
-margin: 0;
-    }
-
-li {
-margin-bottom: 0.5rem;
-color: var(--text);
-padding-left: 0;
-    }
-
-li::before {
-content: "→";
-color: var(--accent);
-margin-right: 0.5rem;
-font-weight: 600;
-    }
-
-.role-date {
-color: var(--muted);
-font-size: 0.9rem;
-    }
-</style>
-</head>
-<body>
-<header>
-<h1>Jose Bedoya</h1>
-<p>Munich — autonomous systems, computer vision, applied math.</p>
-</header>
-<section>
-<p>
-      I'm a Master's student in Mathematics in Science and Engineering at TU Munich,
-      focused on computer vision and autonomous systems. Currently a working student
-      in Computer Vision at Fraunhofer IKS, and previously worked on ADAS validation
-      at BMW and domain adaptation for autonomous trucks with TRATON R&D.
-</p>
-<p>
-      Reach me at <a href="mailto:josebedoya771@gmail.com">josebedoya771@gmail.com</a>.
-</p>
-</section>
-<section>
-<h2>Work</h2>
-<ul>
-<li>Working Student, Computer Vision — Fraunhofer IKS <span class="role-date">(since 2026)</span></li>
-<li>Research Intern — TUM Data Innovation Lab × TRATON R&D <span class="role-date">(2025–2026)</span></li>
-<li>Working Student, ADAS Validation — BMW Group <span class="role-date">(2024–2026)</span></li>
-<li>Intern, Body Safety Validation — BMW Group <span class="role-date">(2024)</span></li>
-</ul>
-</section>
-<section>
-<h2>Selected Projects</h2>
-<ul>
-<li>Dependable person detection for industrial sensing (Fraunhofer IKS)</li>
-<li>Domain adaptation for autonomous trucks (TRATON)</li>
-<li>Trajectory optimization and collision avoidance in learned environments (Siemens)</li>
-<li>Driving scenario reconstruction with foundation models (TUM Computer Vision Group)</li>
-<li>Monocular depth to multi-view reconstruction (TUM Computer Vision Group)</li>
-<li>Agentic research pipeline for digital health (RoX Health)</li>
-</ul>
-</section>
-<section>
-<h2>Writing</h2>
-<ul>
-<li>
-<a href="https://doi.org/10.1115/1.4063679">
-          Enhancing gas turbine performance in tropical climates
-</a> — ASME, 2023
-</li>
-</ul>
-</section>
-<section>
-<h2>Elsewhere</h2>
-<ul>
-<li><a href="https://www.linkedin.com/in/jose-bedoya-916b631a0">LinkedIn</a></li>
-</ul>
-</section>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Jose Bedoya — learning, perception, planning and control for autonomous systems."><meta name="theme-color" content="#0b1d35"><title>Overview · Jose Bedoya</title><link rel="stylesheet" href="assets/style.css"></head><body><div class="wrap"><nav><a class="brand" href="index.html">Jose Bedoya</a><div class="navlinks"><a href="index.html" aria-current="page">Overview</a><a href="research.html" >Research</a><a href="projects.html" >Other Projects</a></div></nav><main>
+<section class="hero"><div class="eyebrow">Mathematics · Robotics · AI</div>
+<h1>Learning, perception, and planning for autonomous systems.</h1>
+<p class="lead">I am a Master's student in Mathematics in Science and Engineering at the Technical University of Munich, working at the intersection of computer vision, machine learning, and autonomous systems. I currently work on computer vision at Fraunhofer IKS and am preparing to start a Master's thesis on multimodal 3D perception for ADAS at TRATON, in collaboration with the TUM Chair of Computer Vision & Artificial Intelligence.</p>
+<p class="lead">These experiences have made me particularly interested in the interaction between perception, learning, planning, and control. Rather than focusing on a single component of an autonomous system, I would like to investigate how learned representations of the perceived environment can be coupled with dynamical models, optimization, and control to enable adaptive and reliable decision-making in uncertain environments.</p>
+<div class="hero-actions"><a class="button primary" href="research.html">Explore research →</a><a class="button" href="https://github.com/joebarranquilla">GitHub ↗</a><a class="button" href="https://www.linkedin.com/in/jose-bedoya-916b631a0">LinkedIn ↗</a><a class="button" href="mailto:josebedoya771@gmail.com">Contact</a></div></section>
+<section class="section two-col"><div><div class="eyebrow">Research direction</div><h2>Connecting learned representations with decision-making</h2><p>My background combines mathematical modeling and optimization with hands-on work in computer vision and autonomous driving. I am especially interested in methods that connect what an autonomous system perceives with how it predicts, plans, and acts.</p><div class="interest-list"><span>3D multimodal perception</span><span>Learning-based planning</span><span>Trajectory optimization</span><span>Model predictive control</span><span>Reliable autonomy</span><span>Representation learning</span></div></div><aside class="callout"><div class="eyebrow">Currently</div><h3>Master's thesis · TRATON R&D</h3><p>Multimodal 3D perception for ADAS using knowledge distillation, supervised by the TUM Chair of Computer Vision & Artificial Intelligence.</p><p><a href="research.html#traton">Project overview →</a></p><hr style="border:0;border-top:1px solid var(--line);margin:18px 0"><h3>Working student · Fraunhofer IKS</h3><p>Computer vision for dependable person detection and agentic pipelines in industrial sensing.</p></aside></section>
+<section class="section"><div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Research projects</h2></div><a href="research.html">All research →</a></div><div class="grid">
+<article class="card"><img class="card-media" src="assets/projects/truck-adaptation.svg" alt="Illustrative schematic of truck trajectory adaptation"><div class="card-body"><div class="meta">TUM Data Innovation Lab × TRATON · 2025–2026</div><h3>Domain adaptation for autonomous trucks</h3><p>Adapting car-driving trajectories to truck dynamics, balancing driving scenarios, and fine-tuning a diffusion-based motion planner.</p><div class="tags"><span class="tag">Motion planning</span><span class="tag">Optimization</span></div></div></article>
+<article class="card"><img class="card-media" src="assets/projects/trajectory-optimization.svg" alt="Illustrative trajectory optimization schematic"><div class="card-body"><div class="meta">TUM × Siemens · 2025</div><h3>Trajectory optimization in learned environments</h3><p>Integrating neural signed-distance-field approximations into a nonlinear optimal-control pipeline for collision avoidance.</p><div class="tags"><span class="tag">Optimal control</span><span class="tag">Learned environments</span></div></div></article>
+<article class="card"><img class="card-media" src="assets/projects/driving-reconstruction.svg" alt="Illustrative driving scene reconstruction schematic"><div class="card-body"><div class="meta">TUM Computer Vision Group · 2026</div><h3>Driving scenario reconstruction</h3><p>Exploring pretrained vision foundation models and 3D Gaussian splatting to reconstruct driving scenes from image data.</p><div class="tags"><span class="tag">Foundation models</span><span class="tag">3D reconstruction</span></div></div></article>
+<article class="card"><img class="card-media" src="assets/projects/depth-alignment.svg" alt="Illustrative multi-view depth alignment schematic"><div class="card-body"><div class="meta">TUM Computer Vision Group · 2026</div><h3>Monocular depth to multi-view 3D</h3><p>DepthAlignNet jointly refines monocular depth and estimates camera geometry to improve consistency across views.</p><div class="tags"><span class="tag">Depth estimation</span><span class="tag">Multi-view geometry</span></div></div></article>
+</div></section>
+<section class="section"><div class="section-head"><div><div class="eyebrow">Background</div><h2>Experience</h2></div></div><div class="timeline">
+<div class="timeline-item"><strong>Master's Thesis Student · TRATON R&D Germany GmbH</strong><small>Since October 2026 · Multimodal 3D perception for ADAS</small></div>
+<div class="timeline-item"><strong>Working Student, Computer Vision · Fraunhofer IKS</strong><small>Since May 2026 · Dependable person detection and industrial sensing</small></div>
+<div class="timeline-item"><strong>Research Intern · TUM Data Innovation Lab × TRATON R&D</strong><small>October 2025 – February 2026 · Autonomous truck planning</small></div>
+<div class="timeline-item"><strong>Working Student, ADAS Validation · BMW Group</strong><small>October 2024 – March 2026</small></div>
+</div></section>
+<section class="section"><div class="callout"><div class="eyebrow">Beyond autonomous systems</div><h2>Mathematics and engineering foundations</h2><p>My earlier work spans functional analysis, thermo-fluid systems, experimental microfluidics, and a peer-reviewed ASME publication on gas-turbine performance in tropical climates.</p><a href="projects.html">Explore other projects and publication →</a></div></section>
+</main><footer><span>Jose Bedoya · Munich, Germany</span><span><a href="mailto:josebedoya771@gmail.com">Email</a> · <a href="https://github.com/joebarranquilla">GitHub</a> · <a href="https://www.linkedin.com/in/jose-bedoya-916b631a0">LinkedIn</a></span></footer></div></body></html>
